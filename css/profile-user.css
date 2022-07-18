@@ -1,0 +1,139 @@
+.colores {
+  --color-verde: rgb(0, 153, 66);
+  --color-fondo-gris: rgb(46, 46, 46);
+  --color-azul-circle: rgb(0, 94, 218);
+}
+
+body,
+.card, .navbarcolor {
+  margin: 0;
+  color: #bcbdbf;
+  background-color: #1c1c1c;
+  font: 600 16px/18px "montserrat";
+  font-family: 'Anonymous Pro', monospace;
+  font-family: 'Permanent Marker', cursive;
+  font-family: 'Poppins', sans-serif;
+}
+
+.modalinvertir {
+  color: #bcbdbf;
+  background-color: #1c1c1c;
+}
+
+.bluraction {
+  -webkit-filter: blur(3px);
+}
+
+p {
+  justify-content: center;
+  font-size: 10px;
+  font: 300 10px/14px "montserrat";
+  font-family: 'Anonymous Pro', monospace;
+  font-family: 'Permanent Marker', cursive;
+  font-family: 'Poppins', sans-serif;
+}
+
+.profile {
+  justify-content: center;
+  position: relative;
+  border: 3px solid rgb(0, 153, 66);
+  width: 100px;
+  height: 100px;
+  overflow: hidden;
+  border-radius: 60%;
+}
+
+a,
+.negrita {
+  font: 400 12px/14px "montserrat";
+}
+
+.edit-profile,
+.mas {
+  align-items: center;
+  font-size: small;
+  color: white;
+  background-color: rgb(63, 63, 63);
+  border-radius: 20px;
+  border-top-left-radius: 0%;
+}
+.retiro{
+  align-items: center;
+  font-size: small;
+  color: white;
+  background-color: rgb(63, 63, 63);
+  border-radius: 20px;
+  /* border-top-left-radius: 0%; */
+}
+.inversion{
+  align-items: center;
+  font-size: small;
+  color: white;
+  border-radius: 20px;
+}
+
+.addStory {
+  /* border: 1px; */
+  font-size: small;
+  /* padding-left: 8%;
+  padding-right: 8%; */
+  border-radius: 20px;
+  border-top-right-radius: 0%;
+}
+
+button:hover {
+  background-color: rgb(0, 153, 66);
+}
+
+a[class="circulonoti"] {
+  /* background-color: ; */
+  border-radius: 50%;
+}
+
+.friend {
+  white-space: nowrap;
+}
+
+.live {
+  padding-left: 5%;
+}
+
+.cursor {
+  cursor: pointer;
+  box-shadow: #fff;
+}
+
+.click{
+  cursor: pointer;
+  
+}
+
+thead {
+  background-color: rgb(0, 153, 66);
+}
+
+th,
+td {
+  font-size: small;
+  color: #fff;
+  text-align: center;
+  overflow: hidden;
+}
+
+.editar-acount,
+.borrar-acount {
+  font-size: small;
+  border-radius: 20%;
+  border-top-left-radius: 0%;
+}
+
+.table-responsive::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+  display: none;
+}
+
+.editar-deuda, .borrar-deuda{
+  font-size: small;
+  border-radius: 100%;
+}

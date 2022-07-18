@@ -1,0 +1,73 @@
+/* Carousel styling */
+#introCarousel,
+.carousel-inner,
+.carousel-item,
+.carousel-item.active {
+  height: 100vh;
+}
+
+.carousel-item:nth-child(1) {
+  background-image: url("../img/3.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+.carousel-item:nth-child(2) {
+  background-image: url("../img/2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+.carousel-item:nth-child(3) {
+  background-image: url("../img/1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+/* Height for devices larger than 576px */
+@media (min-width: 992px) {
+  #introCarousel {
+    margin-top: -58.59px;
+  }
+  #introCarousel,
+  .carousel-inner,
+  .carousel-item,
+  .carousel-item.active {
+    height: 50vh;
+  }
+}
+
+body, div, .card, .card-header, .card-footer, table{
+  background-color: rgb(46, 46, 46);
+  color: #fff;
+  border-color:  rgb(46, 46, 46);
+}
+
+th, td{
+  color: #fff;
+}
+
+.card{
+  box-shadow: 50%;
+}
+
+.navbar .nav-link {
+  color: #fff !important;
+}
+
+.borrar-acount,
+.editar-acount,
+.envia-acount{
+  border-radius: 20px;
+  border-top-left-radius: 0%;
+}
+
+input[type = "text"], input[type = "password"] {
+  border-radius: 20px;
+  border-top-left-radius: 0%;
+}
+
+thead{
+  background-color: rgb(0, 153, 66);
+}

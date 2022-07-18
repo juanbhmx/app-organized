@@ -1,0 +1,84 @@
+.colores {
+  --color-verde: rgb(0, 153, 66);
+  --color-fondo-gris: rgb(46, 46, 46);
+  --color-azul-circle: rgb(0, 94, 218);
+}
+
+body,
+.card {
+  margin: 0;
+  color: white;
+  background-color: rgb(38, 38, 38);
+  font: 600 16px/18px "montserrat";
+}
+.portada {
+  position: relative;
+  overflow: auto;
+  border-radius: 8px;
+  margin-bottom: 50px;
+  height: auto;
+  z-index: -1;
+}
+
+.profile {
+  justify-content: center;
+  position:absolute;
+  border: 3px solid rgb(0, 94, 218);
+  /* para mover abajo */
+  margin: 60px;
+  padding: 0%;
+  border-radius: 50%;
+  /* box-shadow: 0px 0px 50px 0px rgb(0, 94, 218); */
+  overflow: hidden;
+  /* height: auto; */
+  width: 100px;
+  z-index: 1;
+  height: 100px;
+}
+
+p {
+  justify-content: center;
+  font-size: 10px;
+  font: 300 10px/14px "montserrat";
+}
+
+a,
+.negrita {
+  font: 400 12px/14px "montserrat";
+}
+
+.edit-profile,
+.mas {
+  align-items: center;
+  font-size: small;
+  color: white;
+  background-color: rgb(63, 63, 63);
+  border: 1px;
+}
+.edit-profile {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+.addStory {
+  border: 1px;
+  font-size: small;
+  padding-left: 8%;
+  padding-right: 8%;
+}
+
+button:hover {
+  background-color: rgb(0, 94, 218);
+}
+
+a[class="circulonoti"] {
+  background-color: blue;
+  border-radius: 50%;
+}
+
+.friend {
+  white-space: nowrap;
+}
+
+.live {
+  padding-left: 5%;
+}
